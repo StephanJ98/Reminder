@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/add.css">
+    <script type="text/javascript" src="../scripts/ajouter.js"></script>
+    <title>ToDoList</title>
+</head>
+
+<body>
+    <section id="container">
+        <div id="containerMain">
+            <div id="main">
+                <h1 id="texte">Ajouter une tache à faire</h1>
+                <section class="parent">
+                    <input class="inputs" id="titre" placeholder="Titre">
+                </section>
+                <section class="parent">
+                    <textarea class="inputs" id="description" placeholder="Description" rows="5"
+                        maxlength="220"></textarea>
+                </section>
+            </div>
+        </div>
+        <div id="containerOk">
+            <a id="plus" href="../index.html" onclick="ajouter()">
+                <svg id="plusImg" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z" />
+                </svg>
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>

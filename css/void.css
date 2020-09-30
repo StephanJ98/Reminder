@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Indie Flower';
+    src: url('../fonts/IndieFlower.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/IndieFlower.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Indie Flower', Fallback, sans-serif;
+    background-color: #295354;
+    height: 100%;
+    text-align: center;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+#containerText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#containerPlus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#texte {
+    margin-bottom: 100px;
+}
+#plus {
+    border: none;
+    background-color: transparent;
+}
+#plusImg {
+    fill: #7ec1c4;
+}
+.mydiv {
+    background-color: #7ec1c4;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 3px 3px #888888;
+}
+.btnDel {
+    border: none;
+    background-color: transparent;
+}
+.delImg {
+    fill: #3e6e70;
+}

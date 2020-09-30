@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Indie Flower';
+    src: url('../fonts/IndieFlower.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/IndieFlower.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Indie Flower', Fallback, sans-serif;
+    background-color: #295354;
+    height: 100%;
+    text-align: center;
+}
+#plusImg {
+    fill: #7ec1c4;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+#containerMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex: 1;
+}
+#containerOk {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#texte {
+    margin-bottom: 20px;
+}
+.inputs {
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: #050a0a4b;
+    text-align: center;
+    resize: none;
+    margin-top: 5px;
+    width: 60%;
+}
+.inputs::placeholder {
+    font-family: 'Indie Flower', Fallback, sans-serif;
+    color: black;
+}
+.inputs:focus {
+    outline: none;
+}

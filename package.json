@@ -1,0 +1,22 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Aplication TodoList sur desktop pour windows et linux.",
+  "main": "index.js",
+  "author": {
+    "name": "DStephanJ98",
+    "url": "https://github.com/StephanJ98"
+  },
+  "copyright": "Copyright © 2020 DStephanJ98",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {},
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --ia32 --win nsis"
+  },
+  "devDependencies": {
+    "electron": "^10.1.3",
+    "electron-builder": "^22.8.1"
+  }
+}
