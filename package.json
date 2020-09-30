@@ -5,15 +5,21 @@
   "main": "index.js",
   "author": {
     "name": "DStephanJ98",
-    "url": "https://github.com/StephanJ98"
+    "url": "https://github.com/StephanJ98",
+    "email": "diego.jeandon@gmail.com"
   },
   "copyright": "Copyright © 2020 DStephanJ98",
   "license": "MIT",
   "private": false,
+  "build": {
+    "extraFiles": [
+      "data.json"
+    ]
+  },
   "dependencies": {},
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder --ia32 --win nsis"
+    "build": "electron-builder --x64 --win nsis"
   },
   "devDependencies": {
     "electron": "^10.1.3",
