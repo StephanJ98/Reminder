@@ -65,3 +65,18 @@ body {
 .delImg {
     fill: #3e6e70;
 }
+.inputs {
+    border: none;
+    font-size: larger;
+    font-family: 'Indie Flower', Fallback, sans-serif;
+    background-color: transparent;
+    width: 100%;
+    resize: none;
+}
+.inputs::placeholder {
+    font-family: 'Indie Flower', Fallback, sans-serif;
+    color: black;
+}
+.inputs:focus {
+    outline: none;
+}

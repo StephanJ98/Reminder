@@ -16,7 +16,11 @@ function main() {
             let textTitre = document.createTextNode(getDonnees()[index].titre)
             titre.appendChild(textTitre)
             // Creation de la Description
-            let description = document.createElement('p')
+            let description = document.createElement('textarea')
+            description.classList.add('inputs')
+            description.setAttribute('maxlength', 220)
+            description.setAttribute('rows', 5)
+            description.setAttribute('readonly', true)
             let textDescription = document.createTextNode(getDonnees()[index].description)
             description.appendChild(textDescription)
             // Creation du button pour effacer
