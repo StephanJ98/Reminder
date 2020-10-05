@@ -18,7 +18,7 @@ function createWindow() {
     // et charger le fichier index.html de l'application.
     win.loadFile('index.html')
     win.maximize();
-    win.removeMenu()
+    //win.removeMenu()
     // Ouvre les DevTools.
     // win.webContents.openDevTools()
 }
